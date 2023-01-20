@@ -15,6 +15,11 @@ namespace HotelListing.Models
       
     }
 
+    public class UpdateCountryDTO : CreateCountryDTO
+    {
+       
+    }
+
     public class CountryDTO:CreateCountryDTO
     {
         public int Id { get; set; }

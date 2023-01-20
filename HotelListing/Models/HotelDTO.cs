@@ -21,6 +21,10 @@ namespace HotelListing.Models
        
     }
 
+    public class UpdateHotelDTO : CreateHotelDTO
+    {
+    }
+
     public class HotelDTO:CreateHotelDTO
     {
         public int Id { get; set; }
